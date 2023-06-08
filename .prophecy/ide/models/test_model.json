@@ -85,8 +85,8 @@
       "metadata" : {
         "label" : "customers",
         "slug" : "customers",
-        "x" : -120,
-        "y" : 120,
+        "x" : -200,
+        "y" : -120,
         "phase" : 0
       },
       "properties" : {
