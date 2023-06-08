@@ -18,9 +18,53 @@ functions:
   udafs: {}
   expressions: {}
 subgraphs: {}
-sqlModels: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/test_model:
+    name: test_model
+    schema:
+      providerType: Databricks
+      fields:
+      - name: id
+        dataType:
+          type: Integer
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+    description: null
+    author: haresh@prophecy.io
+    files:
+    - models/test_model.sql
+    - .prophecy/ide/models/test_model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-06-08 11:08:13'
+    modifiedAt: '2023-06-08 11:08:13'
 sqlMacros: {}
-sqlSeeds: {}
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/customers:
+    name: customers
+    schema:
+      providerType: Databricks
+      fields:
+      - name: id
+        dataType:
+          type: Integer
+      - name: first_name
+        dataType:
+          type: String
+      - name: last_name
+        dataType:
+          type: String
+    description: null
+    author: haresh@prophecy.io
+    files:
+    - seeds/customers.csv
+    createdAt: '2023-06-08 11:08:28'
+    modifiedAt: '2023-06-08 11:08:28'
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline:
